@@ -286,12 +286,12 @@ background-blend-mode: multiply;
 opacity: 100%;
 }
 
-}
+
 
 #aboutyakuza{
-     background-image: url(yakuzapexels7.jpg);
-     background-color: black;
-     background-blend-mode:color-dodge;
+   background-image: url(yakuzapexels7.jpg);
+background-color: rgb(1, 71,45);
+     background-blend-mode: multiply;
 }
 #goalyakuza{
 background-size: 100%;
