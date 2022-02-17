@@ -63,20 +63,16 @@ margin-right: 31cm;
 }
 
 #workout{
-column-count: 3;
 
-column-width: 4px;
-column-gap: 1cm;
-column-rule-color: black;
-
-     background-color: rgb(78, 173, 94);
-     color: rgb(0, 0, 0);
-text-decoration: solid;
+transform: translateZ(4cm);
+     background-color: rgba(0, 0, 0,0.4);
+     color:rgba(255, 255, 255,0.5);
+text-decoration:none;
 font-weight: 800;
 text-align: justify;
 text-shadow: 5cm;
-text-decoration: underline;
-font-stretch: expanded;
+
+
 
 
 }
@@ -109,44 +105,36 @@ margin-right: 33cm;
 
 
 #goal{
-     column-width: 2px;
-     column-count: 3;
-     column-gap: 1cm;
-     background-color: rgb(0, 0, 0);
-     color: rgb(240, 248, 255);
+     background-color: rgba(0, 0, 0,0.5);
+     color: rgba(240, 248, 255,0.5);
 text-decoration: solid;
 font-weight: 800;
 text-align: justify;
 text-shadow: 5cm;
-text-decoration: underline;
-font-stretch: expanded;
+
+
 }
 #about{
 
      
-     background-color: rgb(14, 13, 13);
-     color: rgb(248, 245, 245);
+     background-color: rgba(14, 13, 13,0.5);
+     color: rgba(248, 245, 245,0.5);
 text-decoration: solid;
 font-weight: 800;
 text-align: justify;
 text-shadow: 5cm;
-text-decoration: underline;
+
 
 margin: 4px;
 padding: 3px;
 }
 #inspiration{
-column-width: 2px;
-column-count: 3;
-column-gap: 1cm;
-     background-color:black;
-     color:white;
+     background-color:rgba(0, 0, 0,0.5);
+     color:rgba(255, 255, 255,0.5);
 text-decoration: solid;
 font-weight: 800;
 text-align: justify;
 text-shadow: 5cm;
-text-decoration: underline;
-font-stretch: expanded;
 }
 #ceo{
      background-color: rgb(0, 0, 0);
@@ -184,7 +172,7 @@ transform: scale(0.75);
       text-decoration: solid;
      text-align: center;
 align-content: center;
-background-color: rgb(1, 71, 45);
+background-color: rgba(1, 71, 45,0.5);
 margin-right: 13cm;
 margin-left: 13cm;
 padding: 1cm;
@@ -197,11 +185,11 @@ padding: 1cm;
 
 
 @keyframes animateregistration {
-     0%{background-color: black;}
-     25%{background-color: rgb(1, 71, 45);}
-     50%{background-color: rgb(63, 28, 3);}
-     75%{background-color: rgb(75, 74, 74);}
-     100%{background-color: rgb(1, 34, 1);}
+     0%{background-color: rgba(0, 0, 0,0.4);}
+     25%{background-color: rgba(1, 71, 45,0.4);}
+     50%{background-color: rgba(63, 28, 3,0.4);}
+     75%{background-color: rgba(75, 74, 74,0.4);}
+     100%{background-color: rgba(1, 34, 1,0.4);}
 
 }
 
@@ -380,41 +368,54 @@ font-weight: bolder;
 width: 50%;
 height: 50%;
 border-radius: 50%;
-background-color: rgb(1, 71, 45);
+background-color: rgba(1, 71, 45,0.5);
 text-align: center;
 transform: translateX(10cm);
 
 }
 nav{
      width: 100%;
-     line-height: 1cm;
- ;    
+
+ 
 }
-ul{
-     margin: auto;
-     margin-left: 11.2cm;
-     margin-right: 11.2cm;
-     background-color: rgb(1, 71,45);
+ nav ul{
+
+ 
+     background-color: rgba(1, 71,45,0);
      list-style-type: none;
-     text-align: left;
-     display: block;
+     text-align: center;
 
 }
-li{
+ nav ul li{
 
      display: inline-block;
-     margin-right: 2cm;
-     line-height: 1cm;
-}
-li:hover{
-background-color:black;
+     margin: 0.5cm;
+     text-decoration: none;
+     font-family: fantasy;
+     font-weight: lighter;
+     font-size: large;
+border: 1px; 
+padding:0.3cm;
 
+}
+nav ul li a{
+color:rgba(63, 248, 109,0.5);
+text-decoration: none;
+
+
+
+
+}
+
+
+ nav ul li:hover{
+background-color:rgb(0, 0, 0);
+border-radius: 1cm;
 border-color: black;
-border-style: solid;
-border: 0.01cm;
-
+text-decoration: underline;
+color: rgb(1,71 , 45);
 }
-li:visited{
+nav ul li:visited{
      background-color:black;
      color: black;
 }
