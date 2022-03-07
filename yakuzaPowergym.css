@@ -4,6 +4,28 @@ div{
 }
 
 
+header {
+width: 100%;
+height: 2cm;
+     background-color: rgba(16, 17, 17, 0.5);
+     
+     border-radius: 5cm;
+     font-size: larger;
+     font-family: monospace;
+     letter-spacing: 3px;
+     text-align:left;
+     margin-left: 2px;
+     
+}
+header div{
+     color: white;
+     transform: translateY(0.6cm);
+     font: 15px;
+     font-family: poppins;
+     height: 1cm;
+     vertical-align: center;
+     position: relative;
+}
 
 .body{
      
@@ -13,16 +35,23 @@ div{
 background-blend-mode: normal;
 opacity: 50%;
 }
+
+
+.loginform{
+     background-color: rgb(0, 0, 0);
+}
+
 #Y{
-     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-     font-weight: bolder;
- text-shadow: 1cm;
-     color: rgb(1, 71, 45);
-     font-weight: bolder;
-     text-align: center;
+font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+font-weight: bolder;
+text-shadow: 1cm;
+color: rgb(1, 71, 45);
+font-weight: bolder;
+text-align: center;
 }
 
 .Y{
+
 background-color:white;
 margin-top: 1px;
 padding-top:1px;
@@ -32,6 +61,86 @@ margin-left: 11cm;
 box-shadow:inset 0 0 20px 20px;
 
 }
+
+
+
+.wrapperL{
+color:#06f170;
+box-sizing: border-box;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+font-weight: lighter;
+text-decoration: underline;
+font-size: 13px;
+
+
+}
+
+
+.wrapperL form fieldset:hover{
+
+
+box-shadow: 0 0 15px white;
+}
+
+
+
+
+.wrapperL form fieldset{
+background-color: rgba(1, 71,45,.4);
+margin: 0 auto;
+width:10cm;
+height:5cm;
+margin-top: 5cm;
+text-align: center;
+letter-spacing: 1px;
+
+
+border-color: black;
+border-style: solid;
+transition-property: all;
+transition-timing-function: ease-in;
+transition-delay:0.1ms;
+transition-duration: 300ms;
+border-radius: 1cm;
+}
+.wrapperL form fieldset a {
+
+
+font-size: small;
+font-weight: lighter;
+color: beige;
+font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+letter-spacing: 3px;
+font-display: block;
+
+}
+.wrapperL form fieldset a:hover{
+color: aqua;
+
+}
+
+.circle{
+text-align: center;
+background-color: rgb(1, 71, 45);
+color:#06f170;
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+margin: 0 auto;
+margin-top: 0.5cm;
+margin-left: 13cm;
+margin-right: 13cm;
+border-radius: 5cm;
+}
+.submitprototype{
+background-color:rgba(255, 255, 255,0.5);
+margin-left: 4cm;
+margin-right: 4cm;
+margin-top: 0.5cm;
+text-align: center;
+
+
+}
+
+
 
 .H{
 
@@ -262,20 +371,11 @@ opacity: 100%;
 
 }
 
-#legend{
 
-     font-size: large;
-     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-     font-weight: bold;
-     text-shadow: 5px;
-     color: white;
-     text-decoration: underline;
-
-
-}
 
 .registerpage{
-
+outline: none;
+border: none;
      
 background-color: black;
 color: antiquewhite;
@@ -284,6 +384,7 @@ padding: 2cm;
 width: 30%;
 height: 70%;
 margin-left: 9cm;
+
 animation-name: animateregistration;
 animation-duration: 10s;
 animation-timing-function: cubic-bezier(0.175, 0.885, 0.32, 1.275);
@@ -335,7 +436,8 @@ box-shadow:inset 0 0 5px white;
 }
 #rbpage{
      
-
+border: none;
+outline: none;
      padding-bottom: 12cm;
      background-image: url(yakuzapexels9.jpg);
           background-repeat: no-repeat;
@@ -345,8 +447,55 @@ box-shadow:inset 0 0 5px white;
 background-blend-mode: multiply;
 opacity: 100%;
 }
+@keyframes animate1{
+0%{border-style: solid;
+border-color: white;
+border: 3px;}
+25%{
+     border-style: solid;
+     border-color:black;
+     border: 3px;
+}
+50%{
+
+     border-style: solid;
+     border-color: red;
+     border: 3px;
+
+}
+75%{
+
+     border-style: solid;
+     border-color: bisque;
+     border: 3px;
+
+}
+100%{
+
+     border-style: solid;
+     border-color: rgb(1, 71, 45);
+     border: 3px;
+
+}
 
 
+
+}
+
+.animatedbox{
+width: 100%;
+height: 100%;
+
+}
+
+
+
+#legend{
+font-family: poppins;
+letter-spacing: 3px;
+color:white;
+text-decoration: underline;
+}
 
 #aboutyakuza{
    background-image: url(yakuzapexels7.jpg);
@@ -426,32 +575,22 @@ font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubun
  color: white;    
 
 }
-.circle{
-     transform: translate(2cm);
-transform: scale(1.5);
-text-decoration: solid;
 
-font-weight: bolder;
-width: 50%;
-height: 50%;
-border-radius: 50%;
-background-color: rgba(1, 71, 45,0.5);
-text-align: center;
-transform: translateX(10cm);
-
-}
 nav{
+     
      width: 100%;
+
 
  
 }
  nav ul{
-
- 
-     background-color: rgba(1, 71,45,0);
+      height: 2cm;
+     position: fixed;
+ margin-left: 0.25cm;
+     background-color: black;
      list-style-type: none;
      text-align: center;
-transform: translateX(-1cm);
+/* transform: translateX(1cm); */
 }
  nav ul li{
 
@@ -483,14 +622,43 @@ text-decoration: underline;
 color: rgb(1,71 , 45);
 box-shadow: inset 0 0 5px white;
 }
-nav ul li:visited{
-     background-color:black;
-     color: black;
-}
+
 .font{
 font-size: small;
 font-weight: lighter;
-font-style: italic;
-font-family: fantasy;
+
+font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+letter-spacing: 3px;
 font-display: block;
+}
+
+input :in-range{
+border: 1px;
+border-style: solid;
+border-color:aqua;
+outline: none;
+
+
+}
+input :out-of-range{
+     border: 1px;
+     border-style: solid;
+     border-color: red;
+     outline:none;
+}
+
+
+input:valid{
+     border: 1px;
+     border-style: solid;
+     border-color:aqua;
+     outline: none;
+}
+
+input:invalid{
+border: 1px;
+border-style: solid;
+border-color: red;
+outline: none;
+
 }
