@@ -1,53 +1,3 @@
-<!-- <!DOCTYPE html>
-<html lang="en">
-<head>
-          <meta charset="UTF-8">
-          <meta http-equiv="X-UA-Compatible" content="IE=edge">
-          <meta name="viewport" content="width=device-width, initial-scale=1.0">
-          <title>log-in</title>
-          <link rel="stylesheet" href="yakuzaPowergym.css">
-</head>
-<body>
-          <div>
-                    <form>
-                    
-          
-                         <div > 
-          
-                    <fieldset>
-                         
-                    <legend> MEMBER</legend><br>
-                    
-                    
-                    <b>USER-NAME<br></b><input type="text" name="USER-NAME" class="wspace"><br>
-                    <b>PASSWORD <br></b> <input type="password" name="PASSWORD" class="wspace"><br>
-                    <b>ID</b> <br><input type="text" name="ID" class="wspace"><br>
-                    <br><input type="submit" value="LOGIN" class="submit"><br>
-                    <div >
-                    <a href="registeryakuza.html"><i><b id="link4">Register Here</b></i></a>
-                    <div>
-                    </fieldset>
-                         </div>
-                    </form>
-                    </div>
-                     
-          <div class="circle" style="color: white;">
-               <b> WeLcOmeToYakuZa! </b>
-          </div>
-          
-          
-                 </div>   
-                 </div>  
-          
-</body>
-</html> -->
-
-
-
-
-
-
-
 
 <!DOCTYPE html>
 <html lang="en">
@@ -58,76 +8,50 @@
      <title>Document</title>
      <link rel="stylesheet" href="css/bootstrap.min.css">
 <script src="js/bootstrap.bundle.js"></script>
-<link rel="stylesheet" href="yakuzaPowergym.css">
 
-<script type="text/javascript" language="javascript">
-
-function checkLogin(){
-
-     var name = document.getElementById('Uname').value;
-var password = document.getElementById('Upass').value;
-
-var rname = "BezylMophatOtieno";
-var rpass = "T33nwo!f";
+<link rel="stylesheet" href="loginform.css">
 
 
-     if(name === rname && rpass == password){
-         var newelementcontent= document.getElementById('message').innerHTML="welcome";
-         var contencolor= document.getElementById('message').className+="loginprompt";
-
-
-         var linktohomepage=document.getElementById('enter');
-var linkset=linktohomepage.setAttribute("href","yakuzahomepage.html");
-var classset=linktohomepage.setAttribute("class","btn btn-outline-secondary btn-sm");
-linktohomepage.innerHTML="ENTER";
-          
-     
-     }else{
-          document.getElementById('message2').innerHTML="invalid password";
-          document.getElementById('message2').className+="loginprompt";
-          
-     }
-}
-
-
-
-
-
-
-
-
-</script>
-     
 </head>
-<body class="loginform" >
+<body   class="loginform" >
 
      
-     <div class="Y"><h1 id="Y"><b>YAKUZA COMMUNITY GYMNASIUM</b></h1> </div>
+     <div><h1 id="Y"><b class="text-secondary">YAKUZA COMMUNITY GYMNASIUM</b></h1> </div>
 
      <div class="wrapperL">
-          <form>
 
-               
-          <fieldset>         
+          <section class="container-sm  ">
+  
+          <form >
+
+                       <fieldset>         
           
-               <div class="fieldset">
-          <p id="message"></p>
-          <b>USER-NAME<br></b><input id="Uname" type="text" name="USER-NAME" class="wspace"><br>
-          <p id="message2"></p>
-          <b>PASSWORD <br></b> <input id="Upass" type="password" name="PASSWORD" class="wspace" minlength="5" maxlength="10" ><br>
-          <b>ID</b> <br><input id="Uid" type="text" name="ID" class="wspace" maxlength="8"><br>
-<input type="button" value="submit" onclick="checkLogin();">  <a id="enter"></a>   <br>
+               <div class="fieldset" ">
+          
+          <label class="form-label" for="Uname">USER-NAME</label> <br><input  id="Uname" type="text" name="USER-NAME" class="wspace" class="form-control" ><br>
+          <label class="form-label" for="Upass">PASSWORD</label> <br> <input id="Upass" type="password" name="PASSWORD" class="wspace" class="form-control" minlength="5" maxlength="10" aria-describedby="form-text" ><br>
+          <span style="flex:right;  font-size: 10px;" class="form-text text-end"> Enter Alpha-Numeric Characters </span><br>
+          <label class="form-label" for="Uid">ID</label><br> <input id="Uid" type="text" name="ID" class="wspace" class="form-control" maxlength="8"><br>
+ 
+
+
+ <button onclick="login()" class="btn  btn-sm btn-outline-secondary rounded-pill mt-3 text-decoration-none">SUBMIT</button> <br>
+     
+
+
+ 
 
 
           
-          <a href="registeryakuza.html"><i><b>click here to register...</b></i></a>
+          <a  href="registeryakuza.html"><i><b>click here to register</b></i></a>
           </div>
           </fieldset>
           
           </form>
+     </section>
           </div>
            
-<div class="circle ">
+<div class="circle  mx-auto  ">
      <b> WeLcOmeToYakuZa! </b>
 </div>
 

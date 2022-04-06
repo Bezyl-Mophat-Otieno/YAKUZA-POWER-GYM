@@ -1,0 +1,75 @@
+.body{
+          background-color: black;
+               background-size: 100%;
+               background-repeat: no-repeat;
+                    background-image: url(yakuzagoal.jpg);
+                    opacity: inherit;
+                    background-blend-mode: lighten;
+          text-align: center;
+          
+          }
+          
+          
+               
+          .wrapperG{
+               box-sizing: border-box;
+               
+               
+               }
+          
+          
+          
+          .GOALS h1{
+               font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+                   font-weight: bolder;
+          text-decoration: underline;
+               text-shadow: 4cm;
+               text-emphasis-color: black;
+               color: rgba(238, 62, 9, 0.801);
+               background-color: rgba(18, 19, 18,.0);
+          text-align: center;
+          }
+          
+          
+          .GOALS p{
+               box-shadow: 0 0 30px 3px;
+          
+               letter-spacing: 5px; 
+               box-sizing: border-box;
+               
+               background-color: rgba(0, 0, 0,0.5);
+               color: rgba(240, 248, 255,1);
+          text-decoration: solid;
+          font-weight: 800;
+          text-align:center;
+          text-shadow: 5cm;
+          padding: 1cm;
+          width: 11cm;
+          height: 10cm;
+          margin:0 auto;
+          
+          border-radius: 2cm;
+          border-style: solid;
+          border-color:black;
+          
+          
+          }
+          
+          
+     .backhome{
+         
+          
+          text-align: center;
+          text-decoration: underline;
+          margin-left: 12cm;
+          margin-right: 19cm;
+          margin-top: 3px;
+          transform: translateX(4cm);
+
+     }
+
+     #button{
+          margin-left:-2cm;
+          
+          
+          }                 

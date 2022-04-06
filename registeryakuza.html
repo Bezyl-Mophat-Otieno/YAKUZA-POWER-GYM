@@ -1,13 +1,15 @@
  <!DOCTYPE html>
 <head>
 <title>Yakuza Rgister</title>
-<link rel="stylesheet" href="yakuzaPowergym.css">
 
+<link rel="stylesheet" href="css/bootstrap.min.css">
+<script src="js/bootstrap.bundle.js"></script>
+<link rel="stylesheet" href="registeryakuza.css">
  
 </head>
 <body style="background-color: rgb(1, 71,45);">
           <div id="rbpage">
-<form> 
+<form > 
 <fieldset>
 <div class="registerpage"   >
 <legend id="legend">NON-MEMBER</legend>
@@ -23,6 +25,24 @@
 <div class="font">USER-NAME: <br><input type="text " name="user-name" class="wspace"><br></div>
 <div class="font"> LOG-IN(password): <br> <input type="password" name="log-in(password)" class="wspace" minlength="5" maxlength="10"><br></div>
 <div class="font"> confirm-password:<br> <input type="password" name="confirm-password" class="wspace"minlength="5" maxlength="10"></div>
+<label for="country"> COUNTRY OF ORIGIN</label><br>
+
+<select  name="countries" id="country" class="wspace select">
+
+<option>KENYA</option>
+<option>RWANDA</option>
+<option>BURUNDI</option>
+<option>TANZANIA</option>
+<option>UGANDA</option>
+
+</select><br>
+
+
+
+
+
+
+
 
 
 <input type="reset" value="RESET" id="reset">  
@@ -30,7 +50,7 @@
 
 <input type="button" value="SUBMIT" class="submit">
 <div class="backhome">
-          <a href="yakuzahomepage.html" style="color:white;" >back</a>
+          <button id="button" class="btn btn-outline-secondary btn-dark btn-sm border-light text-light  rounded-pill "><a class="text-decoration-none text-light" href="yakuzahomepage.html">Back Home</a></button>
 
 </div>
 </div>
@@ -38,7 +58,7 @@
 </form
 
 
-          </div>
+          
 
 
 

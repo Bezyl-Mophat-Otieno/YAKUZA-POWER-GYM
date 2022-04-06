@@ -1,0 +1,152 @@
+.loginform{
+          background-color: rgb(0, 0, 0);
+     }
+     
+     #Y{
+     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+     font-weight: bolder;
+     text-shadow: 1cm;
+     color: rgb(1, 71, 45);
+     font-weight: bolder;
+     text-align: center;
+     }
+     
+     .Y{
+     
+     background-color:white;
+     margin-top: 1px;
+     padding-top:1px;
+     padding-bottom: 1px;
+     margin-right: 11cm;
+     margin-left: 11cm;
+     box-shadow:inset 0 0 20px 20px;
+     
+     }
+     
+     
+     
+     .wrapperL{
+     color:#06f170;
+     box-sizing: border-box;
+     font-family: Verdana, Geneva, Tahoma, sans-serif;
+     font-weight: lighter;
+     
+     font-size: 13px;
+     
+     
+     }
+     
+     
+     .wrapperL form fieldset:hover{
+     
+     
+     box-shadow: 0 0 15px white;
+     }
+     
+     
+     #form-text{
+     translateX:1cm;
+          margin-bottom:0.5cm;
+     }
+     
+     .wrapperL form fieldset{
+     background-color: rgba(1, 71,45,.4);
+     margin: 0 auto;
+     width:10cm;
+     height:7cm;
+     margin-top: 5cm;
+     text-align: center;
+     letter-spacing: 1px;
+     
+     
+     border-color: black;
+     border-style: solid;
+     transition-property: all;
+     transition-timing-function: ease-in;
+     transition-delay:0.1ms;
+     transition-duration: 300ms;
+     border-radius: 1cm;
+     }
+     .wrapperL form fieldset a {
+     
+     
+     font-size: small;
+     font-weight: lighter;
+     color: beige;
+     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+     letter-spacing: 3px;
+     font-display: block;
+     
+     }
+     .wrapperL form fieldset a:hover{
+     color: aqua;
+     
+     }
+     
+     .circle{
+     text-align: center;
+     background-color: black;
+     color: rgb(1, 71,45);
+     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+     margin: 0 auto;
+     margin-top: 0.5cm;
+     margin-left: 13cm;
+     margin-right: 13cm;
+     border-radius: 5cm;
+     }
+     .submitprototype{
+     background-color:rgba(255, 255, 255,0.5);
+     margin-left: 4cm;
+     margin-right: 4cm;
+     margin-top: 0.5cm;
+     text-align: center;
+     
+     
+     }
+     
+     .wspace{
+          cursor: text;
+     background-color:black;
+     color: white;
+     
+     
+     }
+     .wspace:hover{
+          
+          
+     
+     box-shadow:inset 0 0 5px black;
+     
+     }
+     
+     input :in-range{
+          border: 1px;
+          border-style: solid;
+          border-color:aqua;
+          outline: none;
+          text-decoration:none ;
+          
+          }
+          input :out-of-range{
+               border: 1px;
+               border-style: solid;
+               border-color: red;
+               outline:none;
+               text-decoration: none;
+          }
+          
+          
+          input:valid{
+               border: 1px;
+               border-style: solid;
+               border-color:aqua;
+               outline: none;
+          }
+          
+          input:invalid{
+          border: 1px;
+          border-style: solid;
+          border-color: red;
+          outline: none;
+          
+          }
