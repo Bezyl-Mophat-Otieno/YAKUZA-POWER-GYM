@@ -30,12 +30,22 @@
      padding-bottom: 0.5cm;
      margin: 0 auto;
      text-align: center;
-     box-shadow: 0 0 30px 3px;
+     
+     transition-property:box-shadow,Right;
+     transition-duration: 1S;
+    transition-timing-function: ease-out;
+     transition-delay: 0;
+
+
      border-radius: 2cm;
      border-style: solid;
      border-color:black;
      letter-spacing: 5px;
      
+     }
+     P:hover{
+
+          box-shadow: 0 0 30px 3px rgb(251, 187, 108);
      }
      
 .about h1{

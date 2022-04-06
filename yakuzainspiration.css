@@ -45,7 +45,7 @@
                     text-align: center;
                     
           transition-property:box-shadow,Right;
-          transition-duration: 2s;
+          transition-duration: 1s;
          transition-timing-function: ease-out;
           transition-delay: 0;
                     border-radius: 2cm;

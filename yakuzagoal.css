@@ -32,7 +32,12 @@
           
           
           .GOALS p{
-               box-shadow: 0 0 30px 3px;
+               
+          transition-property:box-shadow,Right;
+          transition-duration: 1s;
+         transition-timing-function: ease-out;
+          transition-delay: 0;
+                    
           
                letter-spacing: 5px; 
                box-sizing: border-box;
@@ -54,7 +59,10 @@
           
           
           }
-          
+          P:hover{
+
+               box-shadow: 0 0 30px 3px bisque;
+          }
           
      .backhome{
          
@@ -69,7 +77,7 @@
      }
 
      #button{
-          margin-left:-2cm;
+          
           
           
           }                 
