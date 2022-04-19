@@ -129,7 +129,10 @@
                                                   border-style: solid;
                                                   border-color: red;
                                                   outline: none;
- }                                        
+             }
+             #country{
+                  cursor:grab;
+             }                                        
 #button{
 margin-left:-3cm;
 
